@@ -1,0 +1,49 @@
+<table id="table-1">
+    <tr><td>
+        <h3>員工資料新增 - addEmp.jsp</h3></td><td>
+        <h4><a routerLink="/selectPage"><img src="/assets/images/tomcat.png" width="100" height="100" border="0"><br>回首頁</a></h4>
+    </td></tr>
+</table>
+
+<h3>資料新增:</h3>
+
+<!-- 錯誤表列 -->
+
+<FORM METHOD="post" ACTION="emp.do" name="form1">
+<table>
+	<tr>
+		<td>員工姓名:</td>
+		<td><input type="TEXT" name="ename" size="45" 
+			 value="" /></td>
+	</tr>
+	<tr>
+		<td>職位:</td>
+		<td><input type="TEXT" name="job" size="45"
+			 value="" /></td>
+	</tr>
+	<tr>
+		<td>雇用日期:</td>
+		<td><input name="hiredate" id="f_date1" type="text" 
+			 value="" /></td>
+	</tr>
+	<tr>
+		<td>薪水:</td>
+		<td><input type="TEXT" name="sal" size="45"
+			 value="" /></td>
+	</tr>
+	<tr>
+		<td>獎金:</td>
+		<td><input type="TEXT" name="comm" size="45"
+			 value="" /></td>
+	</tr>
+
+	<tr>
+		<td>部門:<font color=red><b>*</b></font></td>
+		<td><select size="1" name="deptno">
+		</select></td>
+	</tr>
+
+</table>
+<br>
+<input type="hidden" name="action" value="insert">
+<input type="submit" value="送出新增"></FORM>
