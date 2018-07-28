@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Employee } from '../employee';
 import { EMPLOYEES } from '../mock-employees';
 
 @Component({

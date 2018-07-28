@@ -25,3 +25,35 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+資料結構
+angular-IBM-MVC0201
+    /src
+        /app
+            /add-emp
+                add-emp.component.css
+                add-emp.component.html
+                add-emp.component.ts
+            /list-all-emp
+                list-all-emp.component.css
+                list-all-emp.component.html
+                list-all-emp.component.ts
+            /list-one-emp
+                ...
+            /select-page
+                ...
+            /update-emp-input
+                ...
+            app.component.css
+            app.component.html
+            app.component.ts
+            app.module.ts
+            app-routing.module.ts
+            ...
+        /assets
+            /images
+        /environments
+        index.html
+        styles.css
+        ...
